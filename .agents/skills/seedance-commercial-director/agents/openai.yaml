@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance Commercial Director"
+  short_description: "Diretor de vídeos multi-cenários com Lip Sync para Seedance 2.5"
+  default_prompt: "Vamos dirigir um vídeo comercial com lip sync e múltiplos cenários no Seedance 2.5."

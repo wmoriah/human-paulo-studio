@@ -1,0 +1,131 @@
+# ==========================================
+# Convenção WM360: Dados Locais / Privados
+# Qualquer arquivo ou pasta iniciando com @ é estritamente local.
+# ==========================================
+@*/
+@*
+
+# ==========================================
+# Sistema Operacional e Editores
+# ==========================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ==========================================
+# Ambientes Virtuais e Dependências
+# ==========================================
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+node_modules/
+.npm/
+
+# ==========================================
+# Credenciais e Segredos (NUNCA VERSIONAR)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.secret
+*_credentials*.txt
+*service_account*.json
+client_secrets.json
+*.token
+*.pickle
+
+# ==========================================
+# Caches, Logs e Arquivos Temporários
+# ==========================================
+*.log
+**/logs/
+**/temp/
+**/debug/
+**/scratch/
+**/cache/
+.turbo/
+.next/
+dist/
+build/
+
+# ==========================================
+# Mídias e Arquivos Pesados Brutos
+# ==========================================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.m4a
+*.zip
+*.tar
+*.gz
+*.iso
+*.pdf
+*.ai
+*.psd
+
+# ==========================================
+# Memória Rastreável Sanitizada (ALLOWLIST)
+# Permite cápsulas, estado atual e grafo semântico em .memoria/
+# Bloqueia memória bruta, dumps, locks e runtime.
+# ==========================================
+.memoria/*
+!.memoria/
+!.memoria/ChatOff/
+.memoria/ChatOff/*
+!.memoria/ChatOff/LATEST_STATE.md
+!.memoria/ChatOff/capsules/
+.memoria/ChatOff/capsules/*
+!.memoria/ChatOff/capsules/*.md
+!.memoria/ChatOff/202*
+!.memoria/graph/
+.memoria/graph/*
+!.memoria/graph/knowledge_graph.json
+.memoria/graph/.runtime/
+
+# Suporte retrocompatível para memoria/ (sem ponto)
+memoria/*
+!memoria/
+!memoria/ChatOff/
+memoria/ChatOff/*
+!memoria/ChatOff/LATEST_STATE.md
+!memoria/ChatOff/capsules/
+memoria/ChatOff/capsules/*
+!memoria/ChatOff/capsules/*.md
+!memoria/ChatOff/202*
+!memoria/graph/
+memoria/graph/*
+!memoria/graph/knowledge_graph.json
+memoria/graph/.runtime/
+
+# ==========================================
+# Exceções públicas (release): somente o PDF do tutorial e o zip da suíte
+# ==========================================
+!output/conteudo/TUTORIAL-LIVE-01.pdf
+!output/entregaveis/human-paulo-studio-suite-completa.zip
+
+# ==========================================
+# .agents/skills: só as 6 skills do projeto são públicas.
+# Os demais itens são symlinks locais (bmad, caveman, etc.) do ambiente do autor.
+# ==========================================
+.agents/skills/*
+!.agents/skills/creative-pipeline-director/
+!.agents/skills/character-sheet-studio/
+!.agents/skills/experimental-angles-studio/
+!.agents/skills/editorial-photoshoot-studio/
+!.agents/skills/seedance-commercial-director/
+!.agents/skills/cinema-vfx-supervisor/
+
+# Symlinks locais de skills compartilhadas (ambiente do autor)
+.agents/shared/skills/

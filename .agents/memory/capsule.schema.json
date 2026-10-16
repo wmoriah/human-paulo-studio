@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "enum": [
+        "2.0.0"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "cli": {
+      "type": "string",
+      "minLength": 1
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 1
+    },
+    "deliveries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "modified_files": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "preexisting_changes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "validations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "minLength": 1
+          },
+          "result": {
+            "enum": [
+              "passed",
+              "failed",
+              "not_run"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              },
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "command",
+          "result",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "pending_tasks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "workspace",
+              "workflow",
+              "session",
+              "objective",
+              "decision",
+              "artifact",
+              "validation",
+              "task",
+              "conflict"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "active",
+              "pending",
+              "in_progress",
+              "blocked",
+              "completed",
+              "superseded",
+              "needs_review",
+              "open",
+              "resolved",
+              "legacy"
+            ]
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              },
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "metadata": {
+            "type": "object"
+          },
+          "valid_from": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "valid_until": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "type",
+          "description",
+          "status",
+          "scope",
+          "revision",
+          "created_at",
+          "updated_at",
+          "evidence",
+          "metadata"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$"
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$"
+          },
+          "relation": {
+            "enum": [
+              "produziu",
+              "pertence_a",
+              "depende_de",
+              "bloqueia",
+              "validado_por",
+              "evidencia_de",
+              "substitui",
+              "retoma",
+              "utiliza",
+              "registra"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              },
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "source",
+          "target",
+          "relation",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "version",
+    "id",
+    "timestamp",
+    "cli",
+    "objective",
+    "deliveries",
+    "decisions",
+    "modified_files",
+    "preexisting_changes",
+    "validations",
+    "blockers",
+    "pending_tasks",
+    "next_action",
+    "nodes",
+    "edges"
+  ],
+  "additionalProperties": false
+}

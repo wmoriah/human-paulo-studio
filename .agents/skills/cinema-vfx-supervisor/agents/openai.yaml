@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinema VFX Supervisor"
+  short_description: "Supervisor de VFX de cinema e Character Swap em vídeos reais"
+  default_prompt: "Vamos aplicar efeitos visuais de cinema ou trocar o personagem em um vídeo real."

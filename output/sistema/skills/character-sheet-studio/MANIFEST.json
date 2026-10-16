@@ -1,0 +1,20 @@
+{
+  "name": "character-sheet-studio",
+  "files": {
+    "SKILL.md": "bbe22c5a2e028df41efb75b85564530d5d5a1800011e4c7347d88d20528ee37a",
+    "requirements.txt": "a6aa4945334d7e5c05151676e8dfca726780a9e4d154310a34df06f4137f1c92",
+    "scripts/compose.py": "f9572c0c79bf7151eea41397bfb8eed99997b00fcea360d6c9ccc9b8ae270123",
+    "scripts/install.py": "33608ccb52bc2849502b7e046c4497426dfb1587d23bd08243c8fefa84204286",
+    "scripts/package.py": "0184026f8e56a1f61ab040316802e9ff721f87892bab4001f96a0a63305e0f87",
+    "scripts/preflight.py": "bcabbb726d2e65ff209341e04bcfd89332c7bb339b07fd5cd20dd3690877615a",
+    "scripts/prepare_mask.py": "4e790f44c0c3b0aff503144ef9d29217a3791fbfe5eeb59fd24de5e59c67efe4",
+    "references/body-prompt.md": "cad39ce61b9f1bbec408e176c5711d72e3be43dbe61ef1aa835dcdfd0927a5d3",
+    "references/framing.md": "208918a4857df0fc67159e743e4ca1f48ae4f9394bb3690648cc3060081c6a09",
+    "references/production.md": "352939191310302312e43fd1b1c98bd4f19744551341cade0b5be921ff7389fd",
+    "references/providers.md": "d5a6290e7314b9841d63ddd8c32d4757917f4d80aab3be59ff1ef4287a54af04",
+    "agents/openai.yaml": "6f43a02919f826bd26baa55637f09e57758f5be214af0ef5e1317c54dd433a1e",
+    "COMECE-AQUI.md": "67403ffae30eeaf2eb9817a4c06620a095ade3f49b3112cc7d621de67a6dbd75",
+    "AGENTS.md": "6eb41b8a8ed1e4f4d83aee247f40f9032068c62f0a4b5aab707a2cd7f84c2fbb",
+    "CLAUDE.md": "fbf9c2ba710087ee7441ff09be968a3b7faab1f358e80f301babea118898728f"
+  }
+}

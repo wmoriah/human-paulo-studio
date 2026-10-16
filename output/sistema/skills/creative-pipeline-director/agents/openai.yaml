@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creative Pipeline Director"
+  short_description: "Orquestrador Da Ideia ao Projeto (Human Academy + PAULO.IA)"
+  default_prompt: "Vamos iniciar um novo projeto criativo completo com IA passo a passo."

@@ -1,0 +1,11 @@
+{
+  "name": "cinema-vfx-supervisor",
+  "files": {
+    "SKILL.md": "4e828daa9c6d9576f4199e245fc94cfafe27770f8cbf5a46d5ad4d19a51e02f8",
+    "agents/openai.yaml": "cb52348a4fef7fe6ca60dd857705b3945a1083f365181d232329b3bb7a4aebb4",
+    "references/prompt-template.md": "296767631eeb04151689c36ac2407b17d4ed4820a5b5b51c60fea4845c76d488",
+    "references/providers.md": "d5a6290e7314b9841d63ddd8c32d4757917f4d80aab3be59ff1ef4287a54af04",
+    "scripts/media_tools.py": "67802e3925cfb5401971bf4a86f23b64800277886444f89ec50eb70833afc3c2",
+    "scripts/session_manager.py": "c417fbdfd34b19706625182ef8364e0952b72a55c41eb7302a4fd895a8c63c5d"
+  }
+}

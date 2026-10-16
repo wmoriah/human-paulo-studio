@@ -1,0 +1,17 @@
+{
+  "project": "human-paulo-studio",
+  "name": "Human Paulo Studio",
+  "version": "1.0.0",
+  "canonical_entry": "AI-OPERATING-SYSTEM.md",
+  "workspace_index": ".wm-scaffold/workspace-index.json",
+  "governance": ".agents/AGENTS.md",
+  "memory_root": ".memoria/ChatOff",
+  "graph_file": ".memoria/graph/knowledge_graph.json",
+  "supported_clis": [
+    "codex",
+    "claude-code",
+    "antigravity",
+    "pi",
+    "opencode"
+  ]
+}

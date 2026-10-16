@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Sheet Studio"
+  short_description: "Character sheets com rostos originais preservados"
+  default_prompt: "Use $character-sheet-studio para criar meu character sheet a partir das minhas fotos."

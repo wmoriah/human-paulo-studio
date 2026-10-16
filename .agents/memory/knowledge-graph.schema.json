@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "enum": [
+        "2.0.0"
+      ]
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "nodes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "workspace",
+              "workflow",
+              "session",
+              "objective",
+              "decision",
+              "artifact",
+              "validation",
+              "task",
+              "conflict"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "active",
+              "pending",
+              "in_progress",
+              "blocked",
+              "completed",
+              "superseded",
+              "needs_review",
+              "open",
+              "resolved",
+              "legacy"
+            ]
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              },
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "metadata": {
+            "type": "object"
+          },
+          "valid_from": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "valid_until": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "type",
+          "description",
+          "status",
+          "scope",
+          "revision",
+          "created_at",
+          "updated_at",
+          "evidence",
+          "metadata"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$"
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$"
+          },
+          "relation": {
+            "enum": [
+              "produziu",
+              "pertence_a",
+              "depende_de",
+              "bloqueia",
+              "validado_por",
+              "evidencia_de",
+              "substitui",
+              "retoma",
+              "utiliza",
+              "registra"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              },
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "source",
+          "target",
+          "relation",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "version",
+    "revision",
+    "updated_at",
+    "nodes",
+    "edges"
+  ],
+  "additionalProperties": false
+}

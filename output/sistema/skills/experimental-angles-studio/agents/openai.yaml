@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experimental Angles Studio"
+  short_description: "Gera 5+ ângulos de câmera radicais a partir de 1 foto"
+  default_prompt: "Vamos criar variações de ângulos inusitados para uma foto minha."

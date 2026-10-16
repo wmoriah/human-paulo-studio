@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editorial Photoshoot Studio"
+  short_description: "Ensaio fotográfico editorial com Character Sheet + Referências"
+  default_prompt: "Vamos criar um ensaio fotográfico editorial combinando meu character sheet e referências."
