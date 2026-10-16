@@ -1,0 +1,4 @@
+# Infraestrutura do wm-scaffold e cópias instaladas das skills não contam nas estatísticas de linguagem do GitHub.
+tools/** linguist-vendored
+.agents/shared/** linguist-vendored
+.agents/skills/** linguist-generated
