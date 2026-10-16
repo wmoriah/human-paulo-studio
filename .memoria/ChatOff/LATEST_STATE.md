@@ -1,16 +1,10 @@
-# Cápsula do Tempo — Human Paulo Studio (Setup Inicial)
+# Estado Atual — Human Paulo Studio (2026-10-16)
 
-## 1. Conquistas & Entregas Validadas
-- **Setup de Governança Concluído:**
-  - Sistema Operacional de Agentes inicializado via `wm-scaffold`.
-  - Configurados adaptadores para Codex, Claude Code, Gemini/Antigravity e OpenCode.
-  - Taxonomia sagrada de pastas estabelecida.
-  - Motor de memória e grafo semântico instalados em `tools/memory_graph.py`.
-  - Escudo de segurança Git ativado com pre-commit hook.
+## Entregue
+- Suíte de 6 skills publicada em https://github.com/wmoriah/human-paulo-studio (público, MIT, release v1.0.0).
+- README, tutorial PDF, CHANGELOG, CONTRIBUTING e templates do GitHub prontos.
 
-## 2. Padrão de Memória Ativo
-- Histórico mantido em `.memoria/ChatOff/`
-- Grafo de conhecimento em `.memoria/graph/knowledge_graph.json`
-
-## 3. Próxima Ação Imediata (/chat-on)
-1. Iniciar o levantamento de requisitos ou desenvolvimento do escopo principal do projeto.
+## Próxima Ação (/chat-on)
+1. Postar o texto no grupo da comunidade e acompanhar issues/PRs.
+2. Conferir o repo em aba anônima (README, Mermaid, downloads).
+3. Se vier contribuição, avaliar proteção da `main` e atualizar o CHANGELOG a cada release.

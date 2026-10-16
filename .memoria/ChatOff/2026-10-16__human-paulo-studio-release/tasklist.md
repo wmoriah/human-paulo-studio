@@ -1,0 +1,11 @@
+# Tarefas
+- [x] Transcrever live e gerar tutorial MD/PDF
+- [x] Criar e validar as 6 skills
+- [x] README com créditos, diagramas e conectores
+- [x] Gate 0 de conectores
+- [x] Auditoria de dados sensíveis e limpeza de symlinks
+- [x] Licença MIT, repo público, v1.0.0 e Release
+- [x] Arquivos de contribuição e configurações do GitHub
+- [ ] Postar o texto no grupo da comunidade
+- [ ] Conferir em aba anônima README, Mermaid e downloads
+- [ ] Avaliar proteção da branch `main` se houver muitos PRs
