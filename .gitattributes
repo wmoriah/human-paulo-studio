@@ -2,3 +2,5 @@
 tools/** linguist-vendored
 .agents/shared/** linguist-vendored
 .agents/skills/** linguist-generated
+# Os scripts das skills são apoio de um repo de conteúdo (Markdown); não definem a "linguagem" do projeto.
+output/sistema/** linguist-documentation
