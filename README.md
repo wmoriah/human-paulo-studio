@@ -8,6 +8,7 @@
 
 
 **Versão atual:** [v1.0.0](./CHANGELOG.md) · Licença MIT
+
 ---
 
 ## 🎯 Por Que Este Repositório Existe? (Manifesto Anti-Guru)
@@ -251,6 +252,9 @@ python3 output/sistema/manage_suite.py --install-global
 ---
 
 ## 🤝 Contribuição para a Comunidade Human Academy
+
+Quer ajudar? Veja o [CONTRIBUTING.md](./CONTRIBUTING.md). Ideias: cobrir as próximas lives, traduzir para EN/ES, criar adaptadores para outros hubs e reportar o que quebra.
+
 
 Se esse material te ajudou a destravar suas criações com IA:
 1. **Valorize quem ensina de verdade:** Vá no perfil do [**@paulo.ia**](https://www.instagram.com/paulo.ia/), do [**@marioo____**](https://www.instagram.com/marioo____/), do [**@nandoblum**](https://www.instagram.com/nandoblum/) e da [**Human Academy**](https://s.humanacademy.ai/portaldablack) e comente lá como a Live 01 impactou o seu fluxo.
