@@ -1,6 +1,8 @@
 ---
 name: experimental-angles-studio
 description: Gera 5+ variações de ângulos de câmera inusitados, radicais e fisicamente plausíveis a partir de uma única foto real, mantendo 100% da identidade, roupa, calçado, iluminação e estética original (inclusive estética de celular). Inclui conversão automática de arquivos .HEIC/.WEBP e menu de ângulos extras sob demanda (Fisheye, Selfie mão na lente, etc.). Use quando o usuário quiser criar novos ângulos de uma mesma foto ou cena.
+metadata:
+  version: "1.0.0"
 ---
 
 # Experimental Angles Studio (Variação de Ângulos Inusitados)

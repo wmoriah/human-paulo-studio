@@ -1,7 +1,7 @@
 {
   "name": "seedance-commercial-director",
   "files": {
-    "SKILL.md": "badc520c635ac1fcca46a885a0ad2edbbc2b28eeb23bfd7acc21d526d95042bd",
+    "SKILL.md": "891eb4f43d038649617910a3fd95dbd19bf767f2d06bc2bd8b615680f893f469",
     "agents/openai.yaml": "557e5181f13def7c4220066bd1c58d6d4f337db0159cf7940086f756a4415872",
     "references/prompt-template.md": "26d84d16d41f5c604ed2fe7295fbb8e71d66ec9178e7318bc92719b62a5a5c53",
     "references/providers.md": "d5a6290e7314b9841d63ddd8c32d4757917f4d80aab3be59ff1ef4287a54af04",

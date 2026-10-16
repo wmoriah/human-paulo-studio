@@ -1,6 +1,8 @@
 ---
 name: editorial-photoshoot-studio
 description: Dirige e produz um ensaio fotográfico editorial completo (10 a 20 retratos autorais) combinando um Character Sheet (fonte exclusiva de identidade e figurino) com múltiplas referências estéticas do Pinterest/Savee.it (fonte exclusiva de luz, cor, textura e atmosfera). Inclui disparo em volume e paralelo em Nano Banana 2.1 e Seedream 5 Pro e checklist de revisão de detalhes (tatuagens, óculos, meias/sapatos). Use quando o usuário quiser criar um ensaio fotográfico profissional ou fotos editoriais com IA.
+metadata:
+  version: "1.0.0"
 ---
 
 # Editorial Photoshoot Studio (Ensaio Fotográfico Editorial)

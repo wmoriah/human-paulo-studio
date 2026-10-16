@@ -1,6 +1,8 @@
 ---
 name: character-sheet-studio
 description: Conduz a criação de character sheets (com rostos reais intocados + corpos sem cabeça) e product sheets (vistas consistentes de embalagens/produtos), incluindo suporte a troca de figurino (wardrobe swap), trava de altura relativa e closes separados de tatuagens/óculos. Use para character sheet de pessoa real, product sheet de marca ou começar/ler esta pasta dedicada. Funciona no Antigravity, Codex e Claude Code.
+metadata:
+  version: "1.0.0"
 ---
 
 # Character Sheet & Product Sheet Studio

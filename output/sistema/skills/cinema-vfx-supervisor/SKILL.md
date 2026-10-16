@@ -1,6 +1,8 @@
 ---
 name: cinema-vfx-supervisor
 description: Dirige e produz efeitos visuais de cinema (VFX fotorrealistas) e substituição de personagens (Character Swap / Motion Transfer) sobre vídeos reais. Extrai frames automaticamente via ffmpeg para analisar a cena, apara inícios mortos do vídeo, conduz perguntas de direção de VFX e suporta Seedance 2.5, Minimax, Higgsfield Genjutsu, Kling Motion Control e Google Omni. Use quando o usuário quiser aplicar efeitos especiais em um vídeo real, transformar cenários ou trocar uma pessoa por outro personagem mantendo atuação e voz.
+metadata:
+  version: "1.0.0"
 ---
 
 # Cinema VFX Supervisor (Efeitos Visuais & Character Swap em Vídeo Real)

@@ -1,6 +1,8 @@
 ---
 name: creative-pipeline-director
 description: Orquestra a pipeline criativa ponta a ponta (Da Ideia ao Projeto Final) segundo a metodologia da Human Academy e PAULO.IA. Conduz ideação com descarte de clichês, refutação Devil's Advocate, roteiro humano de 2 colunas, criação de assets isolados (Character Sheet, Product Sheet, Props GTA-style, Locações guiadas por cor), Storyboard ilustrado e geração final de imagem/vídeo/VFX via Sub-Skills. Use quando o usuário pedir para criar um comercial, campanha, filme curto, projeto completo com IA, ou iniciar o fluxo "Da Ideia ao Projeto".
+metadata:
+  version: "1.0.0"
 ---
 
 # Creative Pipeline Director (Playbook & Orquestrador Mestre)

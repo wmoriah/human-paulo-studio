@@ -1,6 +1,8 @@
 ---
 name: seedance-commercial-director
 description: Dirige filmes publicitários e vídeos dinâmicos multi-cenários com Lip Sync real para Seedance 2.5. Mede automaticamente a duração do áudio via ffprobe, transcreve frases/pausas via mlx_whisper, orienta gravação física do áudio, aplica estética IMAX 65mm, força SFX sem música de fundo (no background music) e gerencia o fluxo econômico Draft 480p para 1080p (com controle de prazo de 7 dias e workaround de vídeo-base). Use quando o usuário quiser criar vídeos falados com lip sync, comerciais multi-cenas ou prompts para Seedance 2.5.
+metadata:
+  version: "1.0.0"
 ---
 
 # Seedance Commercial Director (Vídeo Multi-Cenários & Lip Sync)

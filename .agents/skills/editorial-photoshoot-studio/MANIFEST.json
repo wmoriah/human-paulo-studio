@@ -1,7 +1,7 @@
 {
   "name": "editorial-photoshoot-studio",
   "files": {
-    "SKILL.md": "b79c5d7e5d84119803aaf94bb6cab237d721df7bbf7a2cdbf9f13680e81f9738",
+    "SKILL.md": "cef5e67c2a733cf358f6b7b7354944450ae40d4eeaa50bc313b91b24efc5cd00",
     "agents/openai.yaml": "2bbb855fffd3825cb56362429007bfb16e11dbdafda97223e7b5b962d288e35b",
     "references/prompt-template.md": "59cd1c802bb4af4e1bcd34d1abc1b14af7c5acf7b7afdadc317c3ba849720e68",
     "references/providers.md": "d5a6290e7314b9841d63ddd8c32d4757917f4d80aab3be59ff1ef4287a54af04",

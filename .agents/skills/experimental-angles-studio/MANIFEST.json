@@ -1,7 +1,7 @@
 {
   "name": "experimental-angles-studio",
   "files": {
-    "SKILL.md": "fc7cc04509d7a517048c319dbee0f2f06548a5cd8c357e135c04a7eca32b9dd0",
+    "SKILL.md": "0ea03700bdcbfd8f88c86f2729852cab1762d7738eef73fa33053fc2ca856da9",
     "agents/openai.yaml": "ce7b5f4bc9795d2795195e271459c86dc83400e40301fdd3fc8c108898fa1ff0",
     "references/prompt-template.md": "f912c4267f7e1355ef56deacc58cb68e856ba29d7c13b1546a71a629ba79a46c",
     "references/providers.md": "d5a6290e7314b9841d63ddd8c32d4757917f4d80aab3be59ff1ef4287a54af04",

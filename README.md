@@ -6,6 +6,8 @@
 [![Portal da Black - Gratuito](https://img.shields.io/badge/🎁_Portal_do_Aluno_(Gratuito)-Human_Academy-EAB308?style=for-the-badge)](https://s.humanacademy.ai/portaldablack)
 [![Academy Plus - Dia 11/11](https://img.shields.io/badge/🔥_Inscrição_Black_Friday_(11/11)-Academy_Plus_Vitalício-000000?style=for-the-badge)](https://s.humanacademy.ai/blackliveyd)
 
+
+**Versão atual:** [v1.0.0](./CHANGELOG.md) · Licença MIT
 ---
 
 ## 🎯 Por Que Este Repositório Existe? (Manifesto Anti-Guru)
